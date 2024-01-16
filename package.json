@@ -1,0 +1,1 @@
+{"scripts":{"test":"echo \"Error: no test specified\" && exit 1","start":"node index.js","comment":"// build: npm run build"},"dependencies":{"express":"^4.18.2","tesseract.js":"^5.0.4"}}
