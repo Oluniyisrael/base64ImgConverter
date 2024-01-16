@@ -12,6 +12,9 @@ function getBase64() {
       const base64Data = reader.result.split(',')[1];
       // Do something with the base64 data
       console.log(base64Data)
+      var img = document.createElement('img')
+img.src =  "data:image/jpeg;base64,"+ base64Data
+document.body.appendChild(img)
       fetch('/ugh',{
         method:'POST',
         headers: {
